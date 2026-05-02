@@ -1,0 +1,9 @@
+IGUI_EN = {
+    IGUI_HotbarAttachment_Back2 = "Tactical Vest Rifle",
+    IGUI_HotbarAttachment_Back3 = "Tactical Vest Melee",
+    IGUI_HotbarAttachment_KatanaSheath = "Katana Sheath",
+    IGUI_HotbarAttachment_KnifeSheathBack = "Knife Sheath Back",
+    IGUI_HotbarAttachment_KnifeSheath = "Knife Sheath",
+    IGUI_HotbarAttachment_ChestRigRight = "Chest Rig Right",
+    IGUI_HotbarAttachment_ChestRig = "Chest Rig Left",
+}

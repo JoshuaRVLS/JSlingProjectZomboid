@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>webbingTightM</m_MaleModel>
+	<m_FemaleModel>webbingTightF</m_FemaleModel>
+	<m_GUID>be75db90-05f9-4676-95d5-b25d501ccab3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Sling\Webbing_Tan</textureChoices>
+	<textureChoices>Clothes\Sling\Webbing_Green</textureChoices>
+	<textureChoices>Clothes\Sling\Webbing_Leather</textureChoices>
+	<textureChoices>Clothes\Sling\Webbing_Grays</textureChoices>
+	<textureChoices>Clothes\Sling\Webbing_Gray</textureChoices>
+	<textureChoices>Clothes\Sling\Webbing_Black</textureChoices>
+</clothingItem>

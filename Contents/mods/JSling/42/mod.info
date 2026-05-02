@@ -1,0 +1,8 @@
+name=Rifle Sling
+id=jsling
+description=Adds craftable rifle slings with wearable models and attachment support for long weapons.
+modversion=0.1.0
+author=joshuarvl
+poster=poster.png
+versionMin=42.13
+versionMax=42.999

@@ -1,0 +1,42 @@
+module Base
+{
+    craftRecipe MakeRifleSling
+    {
+        time = 80,
+        category = Tailoring,
+        SkillRequired = Tailoring:2,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 4 [Base.LeatherStrips],
+            item 1 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.RifleSling,
+        }
+    }
+
+    craftRecipe MakeSecondRifleSling
+    {
+        time = 80,
+        category = Tailoring,
+        SkillRequired = Tailoring:2,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 4 [Base.LeatherStrips],
+            item 1 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.RifleSling,
+        }
+    }
+}

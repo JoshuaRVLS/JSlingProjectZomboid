@@ -1,0 +1,183 @@
+module Base
+{
+    item RifleSling
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1,
+        ClothingItem = SlingA,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_Right
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1Alt,
+        ClothingItem = SlingAalt,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_Center
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1Alt2,
+        ClothingItem = SlingAalt2,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_Back
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1Alt3,
+        ClothingItem = SlingAalt3,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_Waist
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1Alt4,
+        ClothingItem = SlingAalt4,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_LeftWaist
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling1Alt5,
+        ClothingItem = SlingAalt5,
+        BodyLocation = jsling:slinga,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2,
+        ClothingItem = SlingB,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2_Right
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2Alt,
+        ClothingItem = SlingBalt,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2_Center
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2Alt2,
+        ClothingItem = SlingBalt2,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2_Back
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2Alt3,
+        ClothingItem = SlingBalt3,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2_Waist
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2Alt4,
+        ClothingItem = SlingBalt4,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+    item RifleSling_2_LeftWaist
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Rifle Sling,
+        ItemType = base:clothing,
+        AttachmentsProvided = Sling2Alt5,
+        ClothingItem = SlingBalt5,
+        BodyLocation = jsling:slingb,
+        Icon = slingAky,
+        Weight = 0.01,
+        Cosmetic = TRUE,
+        ChanceToFall = 0,
+        WorldStaticModel = SlingFlat,
+    }
+
+}

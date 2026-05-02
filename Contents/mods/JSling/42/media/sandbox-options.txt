@@ -1,0 +1,75 @@
+VERSION = 1,
+
+option JSling.EnableSlingLoot
+{
+    type = boolean,
+    default = true,
+    page = JSling,
+    translation = JSling_EnableSlingLoot,
+}
+
+option JSling.SlingLootMultiplier
+{
+    type = double,
+    min = 0,
+    max = 5,
+    default = 1,
+    page = JSling,
+    translation = JSling_SlingLootMultiplier,
+}
+
+option JSling.EnableAccessoryLoot
+{
+    type = boolean,
+    default = true,
+    page = JSling,
+    translation = JSling_EnableAccessoryLoot,
+}
+
+option JSling.AccessoryLootMultiplier
+{
+    type = double,
+    min = 0,
+    max = 5,
+    default = 1,
+    page = JSling,
+    translation = JSling_AccessoryLootMultiplier,
+}
+
+option JSling.EnableZombieSlings
+{
+    type = boolean,
+    default = true,
+    page = JSling,
+    translation = JSling_EnableZombieSlings,
+}
+
+option JSling.PoliceZombieSlingChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 4,
+    page = JSling,
+    translation = JSling_PoliceZombieSlingChance,
+}
+
+option JSling.MilitaryZombieSlingChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 8,
+    page = JSling,
+    translation = JSling_MilitaryZombieSlingChance,
+}
+
+option JSling.MilitaryZombieFirearmChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 2,
+    page = JSling,
+    translation = JSling_MilitaryZombieFirearmChance,
+}

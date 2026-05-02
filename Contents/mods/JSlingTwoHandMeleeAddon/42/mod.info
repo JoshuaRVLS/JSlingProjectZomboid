@@ -1,0 +1,8 @@
+name=Rifle Sling - Two Hand Melee Addon
+id=riflesling_twohand_melee
+description=Optional addon for Rifle Sling that enables two-handed melee weapons on sling slots.
+require=jsling
+modversion=0.1.0
+author=joshuarvl
+versionMin=42.13
+versionMax=42.999

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Bob_KatanaSheath</m_MaleModel>
+	<m_FemaleModel>Kate_KatanaSheath</m_FemaleModel>
+	<m_GUID>549557ac-9b5f-426c-adba-2966381c664a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_BackPack</m_AttachBone>
+	<textureChoices>Clothes\Sling\KatanaSheathRedGround</textureChoices>
+	<textureChoices>Clothes\Sling\KatanaSheath</textureChoices>
+	<textureChoices>Clothes\Sling\KatanaSheathBlack</textureChoices>
+	<textureChoices>Clothes\Sling\KatanaSheathWhite</textureChoices>
+</clothingItem>

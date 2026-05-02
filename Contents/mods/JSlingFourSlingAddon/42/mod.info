@@ -1,0 +1,8 @@
+name=Rifle Sling - Four Sling Addon
+id=jsling_four
+require=jsling
+description=Optional addon that expands Rifle Sling from two simultaneous sling families to four.
+modversion=0.1.0
+author=joshuarvl
+versionMin=42.13
+versionMax=42.999

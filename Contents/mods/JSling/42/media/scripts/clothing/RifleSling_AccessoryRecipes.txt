@@ -1,0 +1,129 @@
+module Base
+{
+    craftRecipe Make Chest Rig
+    {
+        time = 600,
+        category = Tailoring,
+        SkillRequired = Tailoring:4,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 4 [Base.LeatherStrips],
+            item 2 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_ChestRig,
+        }
+    }
+
+    craftRecipe Make Webbing
+    {
+        time = 900,
+        category = Tailoring,
+        SkillRequired = Tailoring:5,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 2 [Base.Belt2],
+            item 6 [Base.LeatherStrips],
+            item 4 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_Webbing,
+        }
+    }
+
+    craftRecipe Make Back Rig
+    {
+        time = 900,
+        category = Tailoring,
+        SkillRequired = Tailoring:4,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 4 [Base.LeatherStrips],
+            item 2 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_BackRig,
+        }
+    }
+
+    craftRecipe Make Simple Knife Sheath
+    {
+        time = 300,
+        category = Tailoring,
+        SkillRequired = Tailoring:2,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 4 [Base.LeatherStrips],
+            item 1 [Base.Thread],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_KnifeSheath,
+        }
+    }
+
+    craftRecipe Make Katana Sheath
+    {
+        time = 500,
+        category = Tailoring,
+        SkillRequired = Tailoring:3,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 1 [Base.Belt2],
+            item 8 [Base.LeatherStrips],
+            item 8 [Base.Thread],
+            item 1 [Base.JSling_KnifeSheath],
+            item 10 [Base.RippedSheets],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_KatanaSheath,
+        }
+    }
+
+    craftRecipe Make Tactical Vest
+    {
+        time = 5000,
+        category = Tailoring,
+        SkillRequired = Tailoring:10,
+        Tags = AnySurfaceCraft,
+        inputs
+        {
+            item 2 [Base.Belt2],
+            item 20 [Base.LeatherStrips],
+            item 20 [Base.Thread],
+            item 2 [Base.JSling_ChestRig],
+            item 2 [Base.JSling_BackRig],
+            item 8 [Base.Tarp],
+            item 1 [Base.RifleSling],
+            item 20 [Base.RippedSheets],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight;IsNotDull],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.JSling_TacticalVest,
+        }
+    }
+}

@@ -1,0 +1,6 @@
+ContextMenu_EN = {
+    ContextMenu_WearTight = "Wear Tight",
+    ContextMenu_WearLoose = "Wear Loose",
+    ContextMenu_KnifeSheath_Wear = "Wear on Thigh",
+    ContextMenu_KnifeSheath_WearBack = "Wear on Waist",
+}

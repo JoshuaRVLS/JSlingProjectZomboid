@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>skinned\clothes\sling_malt3</m_MaleModel>
+    <m_FemaleModel>skinned\clothes\sling_malt3</m_FemaleModel>
+    <m_GUID>9b9d9d70-7fd6-4d76-9af7-9c4a1fa58d67</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <textureChoices>clothes\sling\SlingTexture</textureChoices>
+</clothingItem>

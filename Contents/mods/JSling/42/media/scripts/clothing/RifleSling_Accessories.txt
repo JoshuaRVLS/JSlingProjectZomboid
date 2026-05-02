@@ -1,0 +1,193 @@
+module Base
+{
+    item JSling_TacticalVest
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Tactical Vest,
+        ItemType = base:container,
+        BodyLocation = jsling:hunkvest,
+        CanBeEquipped = jsling:hunkvest,
+        ClothingItem = TacticalVest,
+        Icon = TacticalVest,
+        Weight = 0.8,
+        WeightReduction = 100,
+        Capacity = 20,
+        AttachmentsProvided = Back2;Back3,
+        PutInSound = PutItemInBag,
+        WorldStaticModel = TacticalVestGround,
+    }
+
+    item JSling_ChestRig
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Chest Rig,
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = ChestRig_Gray,
+        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = ChestRig,
+        AttachmentsProvided = ChestRig,
+        WorldStaticModel = FannyPack_Ground,
+    }
+
+    item JSling_Webbing
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Tight),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Gray,
+        IconsForTexture = Webbing_Grays;Webbing_Gray;Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Black,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = Webbing,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_WebbingLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_WebbingLoose
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Loose),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Gray,
+        IconsForTexture = Webbing_Grays;Webbing_Gray;Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Black,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = WebbingLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_Webbing,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_Webbing_Military
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Military Tight),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Green,
+        IconsForTexture = Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Gray,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = Webbing_Military,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_Webbing_MilitaryLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_Webbing_MilitaryLoose
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Military Loose),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Green,
+        IconsForTexture = Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Gray,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = Webbing_MilitaryLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_Webbing_Military,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_Webbing_Black
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Black Tight),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Black,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = Webbing_Black,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_Webbing_BlackLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_Webbing_BlackLoose
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Webbing (Black Loose),
+        ItemType = base:clothing,
+        Weight = 0.4,
+        Icon = Webbing_Black,
+        BodyLocation = jsling:torsorig,
+        ClothingItem = Webbing_BlackLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = JSling_Webbing_Black,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+        WorldStaticModel = PA_Webbing,
+    }
+
+    item JSling_KnifeSheath
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Knife Sheath,
+        ItemType = base:clothing,
+        Weight = 0.2,
+        Icon = KnifeSheath,
+        BodyLocation = jsling:knifesheath,
+        ClothingItem = KnifeSheath,
+        AttachmentsProvided = KnifeSheath,
+        ClothingItemExtra = JSling_KnifeSheathBack,
+        ClothingItemExtraOption = KnifeSheath_WearBack,
+        ClothingExtraSubmenu = KnifeSheath_Wear,
+        WorldStaticModel = KnifeSheathGround,
+    }
+
+    item JSling_KnifeSheathBack
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Knife Sheath (Back),
+        ItemType = base:clothing,
+        Weight = 0.2,
+        Icon = KnifeSheath(back),
+        BodyLocation = jsling:knifesheathback,
+        ClothingItem = KnifeSheath(back),
+        AttachmentsProvided = KnifeSheathBack,
+        ClothingItemExtra = JSling_KnifeSheath,
+        ClothingItemExtraOption = KnifeSheath_Wear,
+        ClothingExtraSubmenu = KnifeSheath_WearBack,
+        WorldStaticModel = KnifeSheathGround,
+    }
+
+    item JSling_BackRig
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Back Rig,
+        ItemType = base:clothing,
+        Weight = 0.2,
+        Icon = ChestRig_Gray,
+        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        BodyLocation = jsling:backrig,
+        ClothingItem = BackRig,
+        AttachmentsProvided = Back2,
+        WorldStaticModel = FannyPack_Ground,
+    }
+
+    item JSling_KatanaSheath
+    {
+        DisplayCategory = Accessory,
+        DisplayName = Katana Sheath,
+        ItemType = base:clothing,
+        Weight = 0.3,
+        Icon = KatanaSheath,
+        IconsForTexture = KatanaSheath;KatanaSheathBlack;KatanaSheathRed;KatanaSheathWhite,
+        BodyLocation = jsling:katanasheath,
+        ClothingItem = KatanaSheath,
+        AttachmentsProvided = KatanaSheath,
+        WorldStaticModel = KatanaSheathGround,
+    }
+}

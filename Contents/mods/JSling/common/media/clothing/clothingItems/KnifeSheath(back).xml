@@ -1,0 +1,10 @@
+<clothingItem>
+    <m_MaleModel>Bob_KnifeSheath(back)</m_MaleModel>
+    <m_FemaleModel>Kate_KnifeSheath(back)</m_FemaleModel>
+    <m_GUID>08ff7a2f-c901-4ce6-b1a3-7f3bdf813e58</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone>Bip01_Pelvis</m_AttachBone>
+    <m_BaseTextures>KnifeSheath(back)</m_BaseTextures>
+    <textureChoices>Clothes\Sling\KnifeSheath(back)</textureChoices>
+</clothingItem>
